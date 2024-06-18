@@ -1,0 +1,39 @@
+/* Define the custom font */
+@font-face {
+    font-family: 'MyFont';
+    src: url('./fonts/Game\ Of\ Squids.otf') format('otf') !important;
+    
+}
+
+/* Apply the custom font to the body */
+body {
+    font-family: 'MyFont',sans-serif !important;
+    font-style: italic !important;
+    background-color: rgba(157, 34, 168, 0.484) !important; 
+    /* border-radius: 50px !important; */
+   
+
+}
+/* 
+*{
+
+    font-style: italic !important;
+} */
+
+
+.text-token-text-primary{
+    color: #e5ef0c !important;
+}
+.ZnJ1aXRqdWljZQ .juice\:text-token-text-secondary{
+    color: #0fdb3d !important;
+}
+.bg-token-sidebar-surface-primary {
+    background-color: #221847 !important; 
+}
+element.style {
+background-color: #221847 !important;
+border-radius: 30px !important;
+}
+.rounded-sm{
+    border-radius: 30px !important;
+}
